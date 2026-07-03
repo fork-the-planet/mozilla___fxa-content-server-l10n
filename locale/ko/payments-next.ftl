@@ -231,6 +231,7 @@ subscription-content-cancel-access-message = { $currentPeriodEnd }에 { $product
 
 cancel-subscription-button-cancel-subscription = 구독 취소
     .aria-label = { $productName }의 구독을 취소합니다
+cancel-subscription-button-keep-subscription = 구독 유지
 
 ## Component - Payment Consent Checkbox
 
@@ -245,6 +246,20 @@ next-payment-confirm-checkbox-error = 계속 진행하기 전에 이 작업을 �
 next-new-user-submit = 지금 구독하기
 next-pay-with-heading-paypal = { -brand-paypal }로 결제
 
+## Churn flow - cancel
+
+churn-cancel-flow-success-title = 아직 구독 중입니다
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-thanks-valued-subscriber = { $productName } 사용에 감사드립니다!
+churn-cancel-flow-button-back-to-subscriptions = 구독으로 돌아가기
+churn-cancel-flow-button-cancel-subscription = 구독 취소
+churn-cancel-flow-button-manage-subscriptions = 구독 관리
+churn-cancel-flow-button-contact-support = 지원팀 연락
+
+## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+churn-cancel-flow-cancel-success-title = 가신다니 아쉽습니다.
+
 ## Churn flow - stay subscribed
 
 churn-stay-subscribed-action-error = 알 수 없는 오류가 발생하였습니다. 다시 시도해 주세요
@@ -253,6 +268,12 @@ churn-stay-subscribed-button-stay-subscribed-and-save-discount = 구독 상태�
 churn-stay-subscribed-button-stay-subscribed-and-save = 구독 상태를 유지하고 비용을 절약하세요
 churn-stay-subscribed-button-no-thanks = 아니요
     .aria-label = 구독 페이지로 돌아가기
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-title-subscription-renewed = 구독 갱신됨
+churn-stay-subscribed-button-go-to-subscriptions = 구독으로 이동
+churn-stay-subscribed-button-stay-subscribed = 구독 유지
 
 ## Component - CouponForm
 
