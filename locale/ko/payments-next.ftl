@@ -286,8 +286,38 @@ next-coupon-promo-code-applied = 프로모션 코드 적용됨
 next-coupon-remove = 삭제
 next-coupon-submit = 적용
 
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-trial-expires = 무료 평가판이 { $date }에 만료됩니다.
+free-trial-content-trial-cancelled = 무료 평가판이 취소되었습니다.
+
+# Charge info strings - with tax, per interval
+
+
+# Charge info strings - no tax, per interval
+
+free-trial-content-button-resume-trial = 평가판 계속
+free-trial-content-button-resume-trial-aria = { $productName } 평가판 계속
+free-trial-content-button-cancel-trial = 평가판 취소
+free-trial-content-button-cancel-trial-aria = { $productName } 평가판 취소
+
+## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
+## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
+## $taxDue (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-last-bill = 최근 청구 • { $billedOnDate }
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + 세금 { $taxDue }
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
+
 ##
 
+free-trial-content-link-view-invoice = 청구서 보기
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+free-trial-content-link-view-invoice-aria = { $productName } 청구서 보기
+free-trial-content-button-update-payment = 결제 수단 변경
 
 # Component - Header
 
@@ -315,12 +345,18 @@ payments-header-avatar-icon =
 payments-header-avatar-expanded-signed-in-as = 로그인 됨
 payments-header-avatar-expanded-sign-out = 로그아웃
 
+## Interstitial Offer
+
+interstitial-offer-button-back-to-subscriptions = 구독으로 돌아가기
+interstitial-offer-cancel-subscription-button = 구독 취소
+
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
 interstitial-offer-button-keep-current-interval-daily = 일간 구독 유지
 interstitial-offer-button-keep-current-interval-weekly = 주간 구독 유지
 interstitial-offer-button-keep-current-interval-halfyearly = 6개월 구독 유지
 interstitial-offer-button-keep-current-interval-monthly = 월간 구독 유지
+interstitial-offer-button-keep-subscription = 구독 유지
 
 ##
 
@@ -353,6 +389,11 @@ purchase-details-credit-applied-label = 크레딧 적용됨
 purchase-details-total-due-label = 총 결제 기한
 next-plan-details-hide-button = 상세 내용 숨기기
 next-plan-details-show-button = 상세 정보 보기
+
+## $trialDayLength (Number) - The number of days in the free trial
+
+free-trial-start-title = { $trialDayLength }일 무료 평가판 시작
+free-trial-success-title = { $trialDayLength }일 무료 평가판이 시작되었습니다.
 
 ##
 
@@ -407,6 +448,14 @@ resubscribe-success-dialog-title = 감사합니다! 모두 준비되었습니다
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-last-bill-with-tax = { $invoiceTotal } + 세금 { $taxDue }
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = 청구서 보기
+subscription-content-expires-on-expiry-date = { $date }에 만료
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = 다음 청구일 • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + 세금 { $taxDue }
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = 구독 유지
     .aria-label = { $productName } 구독 유지
 subscription-content-button-cancel-subscription = 구독 취소
@@ -415,7 +464,16 @@ subscription-content-button-cancel-subscription = 구독 취소
 ##
 
 dialog-close = 대화상자 닫기
+button-back-to-subscriptions = 구독으로 돌아가기
 subscription-content-cancel-action-error = 알 수 없는 오류가 발생하였습니다. 다시 시도해 주세요.
+
+## Churn flow - Error page
+
+churn-error-page-button-manage-subscriptions = 구독 관리
+churn-error-page-button-contact-support = 지원팀 연락
+churn-error-page-button-try-again = 다시 시도
+churn-error-page-button-sign-in = 로그인
+churn-error-page-message-general-error = 지원팀에 연락하거나 다시 시도하세요.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -515,3 +573,8 @@ next-coupon-error-generic = 코드 처리 과정에서 오류가 발생했습니
 next-coupon-error-invalid = 입력한 코드가 유효하지 않습니다.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = 입력한 코드가 제한에 도달했습니다.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = 이 제안은 만료되었습니다.
+stay-subscribed-error-discount-used = 할인 코드가 이미 적용되었습니다.
