@@ -13,7 +13,7 @@ app-query-parameter-err-heading = សំណើមិនល្អ៖ ប៉ារ
 
 app-footer-mozilla-logo-label = ឡូហ្គោ { -brand-mozilla }
 app-footer-privacy-notice = ការជូនដំណឹងអំពីភាពឯកជនរបស់គេហទំព័រ
-app-footer-terms-of-service = លក្ខខ័ណ្ឌ​សេវាកម្ម
+app-footer-terms-of-service = លក្ខខណ្ឌនៃសេវាកម្ម
 
 ## FxA React - Strings shared between multiple FxA products for application page title
 
