@@ -43,6 +43,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
 msgstr ""
+"អូ៎! ប្រហែលជាមានបញ្ហាអ្វីមួយកើតឡើងហើយ។ យើងទទួលបានដំណឹងនេះហើយ\n"
+"          នឹងចាប់ផ្ដើមដោះស្រាយបញ្ហានេះក្នុងពេលឆាប់ៗ។"
 
 #: server/templates/pages/src/502.html:3
 msgid "502 Error"
@@ -50,7 +52,7 @@ msgstr "កំហុស 502"
 
 #: server/templates/pages/src/503.html:3
 msgid "Server busy, try again soon"
-msgstr ""
+msgstr "សេវូបករណ៍ជាប់រវល់ ព្យាយាមម្ដងទៀតឆាប់ៗនេះ"
 
 #: server/templates/pages/src/503.html:4
 msgid ""
@@ -64,7 +66,7 @@ msgstr "កំពុង​ផ្ទុក"
 
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
-msgstr ""
+msgstr "គណនី Mozilla តម្រូវឱ្យមាន JavaScript។"
 
 #: server/templates/pages/src/update_firefox.html:1
 msgid "Mozilla account"
@@ -84,4 +86,4 @@ msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
-msgstr ""
+msgstr "ទាញយកកំណែចុងក្រោយបំផុត"
