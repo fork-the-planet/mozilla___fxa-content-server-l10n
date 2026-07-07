@@ -54,6 +54,7 @@ subplat-cancel = បោះបង់ការជាវ
 subplat-cancel-plaintext = { subplat-cancel } ៖
 subplat-reactivate-plaintext = { subplat-reactivate }​៖
 subplat-privacy-policy = គោលការណ៍ឯកជនភាពរបស់ { -brand-mozilla }
+subplat-privacy-policy-2 = សេចក្តីជូនដំណឹងអំពីឯកជនភាពរបស់ { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy } ៖
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 } ៖
 subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } លក្ខខណ្ឌនៃសេវាកម្ម
@@ -63,6 +64,16 @@ subplat-legal-plaintext = { subplat-legal } ៖
 subplat-privacy = ឯកជនភាព
 subplat-privacy-website-plaintext = { subplat-privacy } ៖
 cancellationSurvey = សូមជួយយើងកែលម្អសេវាកម្មរបស់យើងដោយធ្វើ<a data-l10n-name="cancellationSurveyUrl">ការស្ទង់មតិខ្លី</a>នេះ។
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = លេខវិក្កយបត្រ៖ { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = បានគិតប្រាក់៖ { $invoiceTotal } នៅថ្ងៃទី { $invoiceDateOnly }
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = វិក្កយបត្របន្ទាប់៖ { $nextInvoiceDateOnly }
 
 ## This string displays when the type of credit card is known
 ## https://stripe.com/docs/payments/cards/supported-card-brands
