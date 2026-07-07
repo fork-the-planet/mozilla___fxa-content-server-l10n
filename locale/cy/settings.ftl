@@ -173,10 +173,10 @@ device-info-ip-address = Cyfeiriad IP: { $ipAddress }
 ## Shown at the top of settings to promote installing Firefox on mobile (when
 ## the user is on Firefox) or switching to Firefox (on other browsers).
 
-firefox-promo-banner-mobile-heading = Mynnwch { -brand-firefox } ble bynnag yr ydych
-firefox-promo-banner-mobile-description = Cysoni eich tabiau, nodau tudalen, a chyfrineiriau ar draws eich dyfeisiau. Hefyd, mae popeth yn aros wedi'i amgryptio'n ddiogel.
-firefox-promo-banner-mobile-cta = Cysylltwch ddyfais
-firefox-promo-banner-switch-heading = Cyflym i newid. Hawdd ymgartrefu.
+firefox-promo-banner-mobile-heading = Cael { -brand-firefox } lle bynnag rydych chi
+firefox-promo-banner-mobile-description = Cydweddu eich tabiau, nodau tudalen, a chyfrineiriau ar draws eich dyfeisiau. Hefyd, mae popeth yn aros wedi'i amgryptio'n ddiogel.
+firefox-promo-banner-mobile-cta = Cysylltu dyfais
+firefox-promo-banner-switch-heading = Cyflym i newid. Hawdd i ymgartrefu.
 firefox-promo-banner-switch-description = Pan fyddwch yn newid i { -brand-firefox }, gallwch ddod â'ch nodau tudalen, cyfrineiriau, hanes a mwy er mwyn i chi allu pori heb golli curiad.
 firefox-promo-banner-switch-cta = Newid i { -brand-firefox }
 
