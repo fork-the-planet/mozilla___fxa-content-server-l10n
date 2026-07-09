@@ -3,6 +3,13 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+
+resend-code-success-banner-heading = កូដថ្មីត្រូវបានផ្ញើទៅអុីមែលរបស់អ្នក។
+resend-link-success-banner-heading = បញ្ជាប់ថ្មីមួយត្រូវបានផ្ញើទៅកាន់អុីមែលរបស់អ្នក។
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = បន្ថែម { $accountsEmail } ទៅក្នុងទំនាក់ទំនងរបស់អ្នក ដើម្បីធានាបាននូវការបញ្ជូនដ៏រលូន។
+
 ## Firefox Promo Banner component
 ## Shown at the top of settings to promote installing Firefox on mobile (when
 ## the user is on Firefox) or switching to Firefox (on other browsers).
@@ -97,6 +104,9 @@ checkmark-icon-aria-label =
 # Used to  indicate a check mark for a successful state/action
 checkmark-success-icon-aria-label =
     .aria-label = ជោគជ័យ
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = បាន​បើក
 # Used to indicate that an action will navigate forward or open a detail view
 chevron-right-icon-aria-label =
     .aria-label = សញ្ញាព្រួញឯស្ដាំ
@@ -106,6 +116,14 @@ close-icon-aria-label =
 # Used to decorate a code you enter for verification purposes
 code-icon-aria-label =
     .aria-label = កូដ
+error-icon-aria-label =
+    .aria-label = កំហុស​
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = ព័ត៌មាន
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = ទង់ជាតិសហរដ្ឋអាម៉េរិក
 # Used for loading arrow icon
 icon-loading-arrow-aria-label =
     .aria-label = កំពុង​ផ្ទុក
