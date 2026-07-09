@@ -70,6 +70,21 @@ get-data-trio-print-2 =
 # Aria-label option for an alert symbol
 alert-icon-aria-label =
     .aria-label = សញ្ញាដាស់តឿន
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = ប្រុងប្រយ័ត្ន
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = ការ​ព្រមាន
+authenticator-app-aria-label =
+    .aria-label = កម្មវិធីយថាភូតកម្ម
+backup-codes-icon-aria-label-v2 =
+    .aria-label = កូដយថាភូតកម្មសំណៅចម្លងបម្រុងទុកត្រូវបានភ្ជាប់
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = កូដយថាភូតកម្មសំណៅចម្លងបម្រុងទុកត្រូវបានផ្ដាច់
+# Used to indicate that an action will navigate forward or open a detail view
+chevron-right-icon-aria-label =
+    .aria-label = សញ្ញាព្រួញឯស្ដាំ
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
