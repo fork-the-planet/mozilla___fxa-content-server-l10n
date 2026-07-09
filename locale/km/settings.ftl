@@ -3,16 +3,49 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Firefox Promo Banner component
+## Shown at the top of settings to promote installing Firefox on mobile (when
+## the user is on Firefox) or switching to Firefox (on other browsers).
+
+firefox-promo-banner-switch-cta = ប្ដូរទៅ { -brand-firefox }
+
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
     .label = ពាក្យ​សម្ងាត់
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = ពាក្យសម្ងាត់ម្ដងទៀត
+form-password-with-inline-criteria-signup-submit-button = បង្កើតគណនី
+form-password-with-inline-criteria-reset-new-password =
+    .label = ពាក្យសម្ងាត់ថ្មី
+form-password-with-inline-criteria-confirm-password =
+    .label = អះអាង​ពាក្យសម្ងាត់
+form-password-with-inline-criteria-reset-submit-button = បង្កើតពាក្យសម្ងាត់ថ្មី
 form-password-with-inline-criteria-set-password-new-password-label =
     .label = ពាក្យ​សម្ងាត់
 form-password-with-inline-criteria-match-error = ពាក្យសម្ងាត់មិនត្រូវគ្នាទេ
 form-password-with-inline-criteria-sr-too-short-message = ពាក្យសម្ងាត់ត្រូវតែមានយ៉ាងហោចណាស់ 8 តួអក្សរ។
 form-password-with-inline-criteria-sr-not-email-message = ពាក្យសម្ងាត់មិនត្រូវមានអាសយដ្ឋានអ៊ីមែលរបស់អ្នកទេ។
 form-password-with-inline-criteria-sr-not-common-message = ពាក្យសម្ងាត់មិនគួរជាពាក្យសម្ងាត់ដែលប្រើជាទូទៅទេ។
+form-password-with-inline-criteria-sr-requirements-met = ពាក្យសម្ងាត់ដែលបានបញ្ចូលគោរពទៅតាមតម្រូវការពាក្យសម្ងាត់ទាំងអស់។
+form-password-with-inline-criteria-sr-passwords-match = ពាក្យសម្ងាត់ដែលបានបញ្ចូលត្រូវគ្នា។
+
+## FormVerifyCode
+
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = ចន្លោះនេះត្រូវបានទាមទារ
+
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = បញ្ចូលកូដ { $codeLength }-ខ្ទង់ ដើម្បីបន្ត
+
+# GetDataTrio component, part of Account Recovery Key flow
+
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
