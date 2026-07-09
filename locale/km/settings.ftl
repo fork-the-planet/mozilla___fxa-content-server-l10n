@@ -82,9 +82,36 @@ backup-codes-icon-aria-label-v2 =
     .aria-label = កូដយថាភូតកម្មសំណៅចម្លងបម្រុងទុកត្រូវបានភ្ជាប់
 backup-codes-disabled-icon-aria-label-v2 =
     .aria-label = កូដយថាភូតកម្មសំណៅចម្លងបម្រុងទុកត្រូវបានផ្ដាច់
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = សេវាសារខ្លីសង្គ្រោះត្រូវបានបើក
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = សេវាសារខ្លីសង្គ្រោះត្រូវបានបិទ
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = ទង់ជាតិកាណាដា
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = ធីក
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = ជោគជ័យ
 # Used to indicate that an action will navigate forward or open a detail view
 chevron-right-icon-aria-label =
     .aria-label = សញ្ញាព្រួញឯស្ដាំ
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = បិទសារ
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = កូដ
+# Used for loading arrow icon
+icon-loading-arrow-aria-label =
+    .aria-label = កំពុង​ផ្ទុក
+# Used for passkey icon
+icon-passkey-aria-label =
+    .aria-label = សោសម្ងាត់
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
