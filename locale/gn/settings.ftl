@@ -162,7 +162,9 @@ device-info-ip-address = IP kundaharape: { $ipAddress }
 ## the user is on Firefox) or switching to Firefox (on other browsers).
 
 firefox-promo-banner-mobile-heading = Emohenda { -brand-firefox } peteĩva mba’e’okápe
+firefox-promo-banner-mobile-description = Embojuehepa ne rendayke, techaukaha ha ñe’ẽñemi opaite ne mba’e’okápe. Avei, ipapapypa tekorosãme.
 firefox-promo-banner-mobile-cta = Embojuaju ba’e’oka
+firefox-promo-banner-switch-heading = Pya’e iñambue. Ndahasýi imohenda.
 firefox-promo-banner-switch-cta = Eguerova { -brand-firefox }-pe
 
 ## FormPasswordInlineCriteria
