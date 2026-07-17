@@ -1256,16 +1256,16 @@ passkey-delete-success = Clave de acceso eliminada
 passkey-delete-error = Hubo un problema borrando tu clave de acceso. Probá de nuevo en unos minutos.
 passkey-sub-row-rename-title = Renombrar clave de acceso
 passkey-rename-modal-heading = Renombrar clave de acceso
-passkey-rename-modal-description = Ingrese un nuevo nombre para esta clave de acceso.
+passkey-rename-modal-description = Ingresá un nuevo nombre para esta clave de acceso.
 passkey-rename-input-label = Nombre de la clave de acceso
 passkey-rename-save-button = Guardar
 passkey-rename-cancel-button = Cancelar
-passkey-rename-error-empty = Ingrese un nombre para esta clave de acceso
+passkey-rename-error-empty = Ingresá un nombre para esta clave de acceso
 passkey-rename-error-too-long = El nombre debe contener menos de 256 caracteres.
 passkey-rename-error-invalid = Solo se permiten letras, números, signos de puntuación y símbolos.
 passkey-rename-error-duplicate = Ya existe una clave de acceso con este nombre
 passkey-rename-success = Clave de acceso renombrada
-passkey-rename-error = Hubo un problema renombrando tu clave de acceso. Probá de nuevo en unos minutos.
+passkey-rename-error = Hubo un problema renombrando la clave de acceso. Probá de nuevo en unos minutos.
 
 ## Switch component
 
@@ -1460,7 +1460,7 @@ auth-error-225 = Clave de acceso ya registrada
 auth-error-226 = Se alcanzó el límite de claves de acceso
 auth-error-227 = Falló la autenticación de clave de acceso
 auth-error-228 = Falló el registro de la clave de acceso
-auth-error-233 = Para crear una clave de acceso, configurá un bloqueo de pantalla, PIN, huella digital o reconocimiento facial en tu dispositivo o clave de seguridad. Intente nuevamente.
+auth-error-233 = Para crear una clave de acceso, configurá un bloqueo de pantalla, PIN, huella digital o reconocimiento facial en tu dispositivo o clave de seguridad. Después de hacerlo, probá de nuevo.
 auth-error-238 = Falló la verificación de la clave de acceso
 auth-error-239 = Lo sentimos, no pudimos borrar tu cuenta. Probá de nuevo o contactá a soporte si el problema persiste.
 auth-error-999 = Error inesperado
