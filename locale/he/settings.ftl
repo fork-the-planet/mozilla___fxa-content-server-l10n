@@ -1178,7 +1178,7 @@ tfa-row-backup-phone-sim-swap-risk-link = מידע נוסף על סיכון בה
 # This is a string that shows when the user's passkey was created.
 # Variables:
 #   $createdDate (String) - a localized date string
-passkey-sub-row-created-date = תאריך יצירה:
+passkey-sub-row-created-date = תאריך יצירה: { $createdDate }
 # This is a string that shows when the user's passkey was last used.
 # Variables:
 #   $lastUsedDate (String) - a localized date string
