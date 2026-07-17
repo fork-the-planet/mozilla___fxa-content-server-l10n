@@ -1260,6 +1260,15 @@ passkey-delete-success = Clave-contrasigno delite
 passkey-delete-error = Il habeva un problema a deler tu clave-contrasigno. Retenta in alcun minutas.
 passkey-sub-row-rename-title = Renominar clave-contrasigno
 passkey-rename-modal-heading = Renominar clave-contrasigno
+passkey-rename-modal-description = Insere un nove nomine pro iste clave-contrasigno.
+passkey-rename-input-label = Nomine del clave-contrasigno
+passkey-rename-save-button = Salvar
+passkey-rename-cancel-button = Cancellar
+passkey-rename-error-empty = Insere un nomine pro iste clave-contrasigno.
+passkey-rename-error-too-long = Le nomine debe continer minus que 255 characteres.
+passkey-rename-error-duplicate = Un clave-contrasigno con iste nomine jam existe.
+passkey-rename-success = Clave-contrasigno renominate
+passkey-rename-error = Il habeva un problema a renominar tu clave-contrasigno. Retenta in alcun minutas.
 
 ## Switch component
 
