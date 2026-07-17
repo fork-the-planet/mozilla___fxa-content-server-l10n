@@ -277,6 +277,9 @@ close-icon-aria-label =
 # Used to decorate a code you enter for verification purposes
 code-icon-aria-label =
     .aria-label = Kod
+# Used to decorate an edit or rename control
+edit-icon-aria-label =
+    .aria-label = Wobdźěłać
 error-icon-aria-label =
     .aria-label = Zmylk
 # Used as information icon for informative messaging
@@ -1265,6 +1268,7 @@ passkey-delete-modal-cancel-button = Přetorhnyć
 passkey-delete-modal-confirm-button = Hesłowy kluč zhašeć
 passkey-delete-success = Hesłowy kluč je so zhašał
 passkey-delete-error = Při zhašenju wašeho hesłoweho kluča je problem nastał. Spytajće za mało mjeńšin hišće raz.
+passkey-sub-row-rename-title = Hesłowy kluč přemjenować
 
 ## Switch component
 
