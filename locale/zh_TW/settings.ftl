@@ -259,6 +259,9 @@ close-icon-aria-label =
 # Used to decorate a code you enter for verification purposes
 code-icon-aria-label =
     .aria-label = 驗證碼
+# Used to decorate an edit or rename control
+edit-icon-aria-label =
+    .aria-label = 編輯
 error-icon-aria-label =
     .aria-label = 錯誤
 # Used as information icon for informative messaging
@@ -1225,6 +1228,8 @@ passkey-delete-modal-cancel-button = 取消
 passkey-delete-modal-confirm-button = 刪除 passkey
 passkey-delete-success = 已刪除 passkey
 passkey-delete-error = 刪除您的 passkey 時遇到問題，請稍候幾分鐘再試一次。
+passkey-rename-save-button = 儲存
+passkey-rename-cancel-button = 取消
 
 ## Switch component
 
