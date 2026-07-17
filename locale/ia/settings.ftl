@@ -271,6 +271,9 @@ close-icon-aria-label =
 # Used to decorate a code you enter for verification purposes
 code-icon-aria-label =
     .aria-label = Codice
+# Used to decorate an edit or rename control
+edit-icon-aria-label =
+    .aria-label = Rediger
 error-icon-aria-label =
     .aria-label = Error
 # Used as information icon for informative messaging
@@ -1255,6 +1258,8 @@ passkey-delete-modal-cancel-button = Cancellar
 passkey-delete-modal-confirm-button = Deler clave-contrasigno
 passkey-delete-success = Clave-contrasigno delite
 passkey-delete-error = Il habeva un problema a deler tu clave-contrasigno. Retenta in alcun minutas.
+passkey-sub-row-rename-title = Renominar clave-contrasigno
+passkey-rename-modal-heading = Renominar clave-contrasigno
 
 ## Switch component
 
