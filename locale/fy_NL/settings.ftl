@@ -1466,6 +1466,7 @@ auth-error-225 = Wachtwurdkaai al registrearre
 auth-error-226 = Wachtwurdkaailimyt berikt
 auth-error-227 = Wachtwurdkaaiautentikaasje mislearre
 auth-error-228 = Registraasje wachtwurdkaai mislearre
+auth-error-233 = Stel in skermbeskoatteling, pinkoade, fingerôfdruk of gesichtswerkenning op jo apparaat of befeiligingskaai yn om in wachtwurdkaai oan te meitsjen. Probearje it dêrnei opnij.
 auth-error-238 = Wachtwurdkaai-útdaging mislearre
 auth-error-239 = Sorry, wy koene jo account net fuortsmite. Probearje it opnij, of nim kontakt op mei de stipe as it probleem oanhâldt.
 auth-error-999 = Unferwachte flater
