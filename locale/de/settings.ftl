@@ -1460,6 +1460,7 @@ auth-error-225 = Zugangsschlüssel bereits registriert
 auth-error-226 = Obergrenze für Zugangsschlüssel erreicht
 auth-error-227 = Authentifizierung mit Zugangsschlüssel fehlgeschlagen
 auth-error-228 = Registrierung des Zugangsschlüssels fehlgeschlagen
+auth-error-233 = Um einen Zugangsschlüssel zu erstellen, richten Sie eine Display-Sperre, eine PIN, einen Fingerabdruck oder eine Gesichtserkennung auf Ihrem Gerät oder Sicherheitsschlüssel ein. Versuchen Sie es dann erneut.
 auth-error-238 = Verifizierung des Zugangsschlüssels fehlgeschlagen
 auth-error-239 = Leider konnten wir Ihr Konto nicht löschen. Bitte versuchen Sie es erneut oder wenden Sie sich an den Support, wenn das Problem weiterhin besteht.
 auth-error-999 = Unerwarteter Fehler
