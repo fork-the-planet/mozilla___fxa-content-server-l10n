@@ -116,7 +116,7 @@ subscription-charges-list-price = 정가
 subscription-charges-list-price-plaintext = 정가: { $offeringPrice }
 subscription-charges-credit-from-unused-time = 미 사용 기간 크레딧
 # $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
-subscription-charges-credit-from-unused-time-plaintext = 미 사용 기간 크레딧: { $unUsedAmountTotal }
+subscription-charges-credit-from-unused-time-plaintext = 미 사용 기간 크레딧: { $unusedAmountTotal }
 subscription-charges-subtotal = <b>소계</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = 소계: { $invoiceSubtotal }
