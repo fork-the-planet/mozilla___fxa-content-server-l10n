@@ -271,6 +271,9 @@ close-icon-aria-label =
 # Used to decorate a code you enter for verification purposes
 code-icon-aria-label =
     .aria-label = Koade
+# Used to decorate an edit or rename control
+edit-icon-aria-label =
+    .aria-label = Bewurkje
 error-icon-aria-label =
     .aria-label = Flater
 # Used as information icon for informative messaging
@@ -1257,6 +1260,18 @@ passkey-delete-modal-cancel-button = Annulearje
 passkey-delete-modal-confirm-button = Wachtwurdkaai fuortsmite
 passkey-delete-success = Wachtwurdkaai fuortsmiten
 passkey-delete-error = Der is in probleem bard by it fuortsmiten fan jo wachtwurdkaai. Probearje it oer in pear minuten opnij.
+passkey-sub-row-rename-title = Wachtwurdkaai omneame
+passkey-rename-modal-heading = Wachtwurdkaai omneame
+passkey-rename-modal-description = Fier in nije namme foar dizze wachtwurdkaai yn.
+passkey-rename-input-label = Wachtwurdkaainamme
+passkey-rename-save-button = Bewarje
+passkey-rename-cancel-button = Annulearje
+passkey-rename-error-empty = Fier in namme foar dizze wachtwurdkaai yn
+passkey-rename-error-too-long = De namme moat minder as 256 tekens befetsje.
+passkey-rename-error-invalid = Allinnich letters, sifers, lêstekens en symboalen binne tastien.
+passkey-rename-error-duplicate = Der bestiet al in wachtwurdkaai mei dizze namme
+passkey-rename-success = Wachtwurdkaai omneamd
+passkey-rename-error = Der is in probleem bard by it omneamen fan jo wachtwurdkaai. Probearje it oer in pear minuten opnij.
 
 ## Switch component
 
