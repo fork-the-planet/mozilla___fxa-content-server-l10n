@@ -743,6 +743,7 @@ next-charge-with-discount-no-tax-card = Le { $currentPeriodEnd } tu sparniara le
 next-charge-with-discount-no-tax-payment-method = Le { $currentPeriodEnd } tu sparniara le { $discountPercent }% sur tu carga successive de { $nextInvoiceTotal } a tu methodo de pagamento { $paymentMethod }.
 next-charge-with-discount-no-tax = Le { $currentPeriodEnd } tu sparniara le { $discountPercent }% sur tu proxime carga de { $nextInvoiceTotal }.
 next-charge-with-tax-card = Tu proxime carga sera { $nextInvoiceTotal } +  taxa de { $taxDue } al carta finiente in { $last4 } le { $currentPeriodEnd }.
+next-charge-with-tax-payment-method = Tu proxime carga sera { $nextInvoiceTotal } + taxa de { $taxDue } a tu methodo de pagamento { $paymentMethod } le { $currentPeriodEnd }.
 next-charge-with-tax = Le { $currentPeriodEnd } tu carga successive sera de { $nextInvoiceTotal } + taxa de { $taxDue }.
 next-charge-no-tax-card = Le { $currentPeriodEnd } tu carga successive sera de { $nextInvoiceTotal } al carta finiente in { $last4 }.
 next-charge-no-tax-payment-method = Le { $currentPeriodEnd } tu carga successive sera de { $nextInvoiceTotal } a tu methodo de pagamento { $paymentMethod }.
