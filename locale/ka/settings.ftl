@@ -159,6 +159,14 @@ device-info-browser-os = { $browserName } სისტემაზე { $generic
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP-მისამართი: { $ipAddress }
 
+## Firefox Promo Banner component
+## Shown at the top of settings to promote installing Firefox on mobile (when
+## the user is on Firefox) or switching to Firefox (on other browsers).
+
+firefox-promo-banner-mobile-heading = გადმოწერეთ { -brand-firefox } სადაც არ უნდა იყოთ
+firefox-promo-banner-mobile-description = დაასინქრონეთ ჩანართები, სანიშნები და პაროლები თქვენს მოწყობილობებზე. ამასთანავე, ყველაფერი უსაფრთხოდ დარჩება დაშიფრული.
+firefox-promo-banner-mobile-cta = მოწყობილობის დაკავშირება
+
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -262,6 +270,9 @@ close-icon-aria-label =
 # Used to decorate a code you enter for verification purposes
 code-icon-aria-label =
     .aria-label = კოდი
+# Used to decorate an edit or rename control
+edit-icon-aria-label =
+    .aria-label = ჩასწორება
 error-icon-aria-label =
     .aria-label = შეცდომა
 # Used as information icon for informative messaging
@@ -355,6 +366,8 @@ input-phone-number-country-united-states = შეერთებული შტ
 input-phone-number-country-canada = კანადა
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = უკან
+# Generic error shown when the legal document fails to load
+app-general-err-message = რაღაც ხარვეზი წარმოიქმნა. გთხოვთ, სცადოთ მოგვიანებით.
 
 ## LinkDamaged component
 
@@ -1241,6 +1254,16 @@ passkey-delete-modal-cancel-button = გაუქმება
 passkey-delete-modal-confirm-button = საშვის წაშლა
 passkey-delete-success = საშვი წაიშალა
 passkey-delete-error = ხარვეზი წარმოიშვა პროფილის საშვის წაშლისას. კვლავ სცადეთ რამდენიმე წუთში.
+passkey-sub-row-rename-title = საშვის გადარქმევა
+passkey-rename-modal-heading = საშვის გადარქმევა
+passkey-rename-modal-description = მიუთითეთ ახალი სახელი ამ საშვისთვის.
+passkey-rename-input-label = საშვის სახელი
+passkey-rename-save-button = შენახვა
+passkey-rename-cancel-button = გაუქმება
+passkey-rename-error-empty = მიუთითეთ სახელი ამ საშვისთვის
+passkey-rename-error-too-long = სახელი უნდა შედგებოდეს არაუმეტეს 256 ასონიშნისგან.
+passkey-rename-error-invalid = მისაღებია მხოლოდ ასოები, ციფრები, სასვენი ნიშნები და სიმბოლოები.
+passkey-rename-error-duplicate = საშვი ამ სახელით უკვე არსებობს
 
 ## Switch component
 
